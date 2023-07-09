@@ -12,6 +12,7 @@ El proyecto consiste en el desarrollo de una aplicación web utilizando tecnolog
 - Se utiliza JavaScript para realizar la validación de los campos del formulario antes de enviar los datos al servidor.
 - La autenticación de usuarios se realiza en el servidor, verificando las credenciales ingresadas por el usuario.
 - La respuesta del servidor, en caso de éxito o error en el inicio de sesión, se devuelve en formato JSON.
+- Se utilizan las librerias de Node.js automáticamente instaladas en el sistema (carpeta de Node es creada automáticamente despues de utilizar los respectivos comandos)
 
 ## Requisitos
 - Node.js instalado en el sistema.
