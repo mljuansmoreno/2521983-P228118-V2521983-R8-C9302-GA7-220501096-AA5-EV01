@@ -1,18 +1,4 @@
-function validarFormulario() {
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
-
-    if (username.trim() === "" || password.trim() === "") {
-      alert("Por favor, complete todos los campos.");
-      return false;
-    }
-
-    // Otras validaciones si es necesario
-
-    return true;
-  }
-
-  const express = require('express');
+const express = require('express');
 const app = express();
 
 // Usuarios simulados
@@ -34,7 +20,7 @@ app.post('/login', (req, res) => {
 
   if (usuario) {
     // Las credenciales son válidas
-    res.json({ success: true, message: 'Inicio de sesión exitoso' });
+    res.redirect('/login.html');
   } else {
     // Las credenciales son inválidas
     res.status(401).json({ success: false, message: 'Credenciales inválidas' });

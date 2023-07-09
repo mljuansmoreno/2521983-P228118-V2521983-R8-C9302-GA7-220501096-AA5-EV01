@@ -6,13 +6,18 @@ body {
 
   h2 {
     color: #333333;
+    /* centrar texto */
+    text-align: center;
   }
 
   form {
     background-color: #b1e0c7;
     border: 1px solid #a3f4c6;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 25px;
+    max-width: 400px;
+    /* centrar contenido */
+    margin: 0 auto;
   }
 
   label {
@@ -42,7 +47,7 @@ body {
   }
 
   .form-container {
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
   }
   
